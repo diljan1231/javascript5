@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>javascript Assignment5</title>
+</head>
+<body>
+    <script>
+
+1
+
+
+    //1
+
+// Declare two numbers
+        var num1 = 3;
+        var num2 = 5;
+
+        // Add the numbers
+        var sum = num1 + num2;
+        var subtraction=num1 - num2;
+        var multiplication=num1 * num2;
+        var division=num1 / num2;
+        var modulus=num1 % num2;
+
+        // Show the result in the browser
+        document.write("<b>Value 1 is : "+num1+ "</b><br>")
+        document.write("<b>Value 2 is : "+num2+ "</b><br>")
+        document.write("<b>  Sum of " + num1 + "   and " + num2 + "   is </b> " + sum);
+          document.write("<br>")
+        document.write("<b>  subtraction of " + num1 + "   and " + num2 + "   is </b> " + subtraction);
+         document.write("<br>")
+        document.write("<b>  multiplication of " + num1 + "   and " + num2 + "   is </b> " + multiplication);
+         document.write("<br>")
+        document.write("<b>  division of " + num1 + "   and " + num2 + "   is </b> " + division);
+         document.write("<br>")
+        document.write("<b>  modulus of " + num1 + "   and " + num2 + "   is </b> " + modulus);
+         document.write("<br>")
+
+
+
+         //3
+
+         //a 
+         var myValue=5;
+         document.write("<b>My Value  is : "+myValue+ "</b><br>");
+         document.write("<b>Initial value  is : "+myValue+ "</b><br>");
+
+         myValue++;
+
+         document.write("<b>after increment myValue  is : "+myValue+ "</b><br>");
+         ///
+         var additionValue=7;
+         var nextvalue=myValue+additionValue
+         document.write("<b>after addition nextvalue  is : "+nextvalue+ "</b><br>");
+
+        nextvalue--;
+
+         document.write("<b>after decrement is: "+nextvalue+ "</b><br>");
+
+        var reminder=nextvalue%3;
+        document.write("<b>The remainder is: "+reminder+ "</b><br>");
+
+
+
+
+        var movieTicket=600;
+        var totalTicket=5
+        var TotalPrice=movieTicket*totalTicket;
+        document.write("<b>Total Cost to by "+totalTicket+" Tickets to a movie is  "+TotalPrice+ " PKR</b><br>");
+       document.write("<br>")
+        document.write(" <h1>Tabel of </h1>")
+        for(i=1; i<=10; i++){
+
+            var mynum=4;
+            
+            var result=mynum*i
+        document.write( mynum +"x"+i +"=" +result+"<br>");
+
+        }
+
+
+
+
+
+
+
+document.write("<br>")
+
+
+// a.
+let celsius = 30;
+
+// b.
+let fahrenheit = (celsius * 9/5) + 32;
+document.write(`${celsius}°C is ${fahrenheit}°F<br>`);
+
+// c.
+fahrenheit = 86;
+
+// d.
+celsius = (fahrenheit - 32) * 5/9;
+document.write(`${fahrenheit}°F is ${celsius.toFixed(2)}°C`);
+
+
+
+
+
+
+
+document.write("<br>")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Store item prices and quantities
+let priceItem1 = 650;
+let quantityItem1 = 3;
+
+let priceItem2 = 100;
+let quantityItem2 = 7;
+
+// Store shipping charges
+let shippingCharges = 100;
+
+// Calculate total cost
+let totalItem1 = priceItem1 * quantityItem1; // 650 * 3 = 1950
+let totalItem2 = priceItem2 * quantityItem2; // 100 * 7 = 700
+
+let totalCost = totalItem1 + totalItem2 + shippingCharges; // 1950 + 700 + 100 = 2750
+
+// Output the order summary
+document.write("<h1>Shopping Cart</h1>");
+document.write("<p>Price of item 1 is " + priceItem1 + "</p>");
+document.write("<p>Quantity of item 1 is " + quantityItem1 + "</p>");
+document.write("<p>Price of item 2 is " + priceItem2 + "</p>");
+document.write("<p>Quantity of item 2 is " + quantityItem2 + "</p>");
+document.write("<p>Shipping Charges " + shippingCharges + "</p>");
+
+document.write("<p>Total cost of your order is " + totalCost + "</p>");
+
+
+
+document.write("<br>");
+
+
+
+   //8
+ // Store marks
+    let totalMarks = 980;
+    let marksObtained = 804;
+
+    // Calculate percentage
+    let percentage = (marksObtained / totalMarks) * 100;
+
+    // Display results
+    document.write("<h1>Marks shet</h1>")
+    document.write("<p>Total marks: " + totalMarks + "</p>");
+    document.write("<p>Marks obtained: " + marksObtained + "</p>");
+    document.write("<p>Percentage: " + percentage + "%</p>");
+
+
+
+
+
+//9
+var Usdollars=10;
+var SaudiRiyals=25;
+var PakistaniRupee=104.80;
+var PakistaniRupee=28;
+
+
+var riyalconvert= SaudiRiyals * PakistaniRupee;
+var Usdollarconvert= Usdollars * PakistaniRupee;
+var totelcast= riyalconvert + Usdollarconvert
+document.write("<h1> Corrency in PKR </h1>")
+document.write( "Totel Corrency in PKR:" + totalCost)
+
+
+
+
+
+
+
+
+document.write("<br>")
+document.write("<br>")
+document.write("<br>")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ // Define numbers
+    let a = 20;
+    let b = 5;
+
+    // Subtraction
+    document.write("Subtraction: " + (a - b) + "<br>");
+
+    // Multiplication
+    document.write("Multiplication: " + (a * b) + "<br>");
+
+    // Division
+    if (b !== 0) {
+      document.write("Division: " + (a / b) + "<br>");
+    } else {
+      document.write("Division: Cannot divide by zero<br>");
+    }
+
+    // Modulus
+    if (b !== 0) {
+      document.write("Modulus: " + (a % b) + "<br>");
+    } else {
+      document.write("Modulus: Cannot perform modulus by zero<br>");
+    }
+
+
+document.write("<br> <br>")
+
+
+// Store the current year
+let currentYear = 2016;
+
+// Store the birth year
+let birthYear = 1992;
+
+// Calculate two possible ages
+let age1 = currentYear - birthYear;     // If birthday has occurred this year
+let age2 = age1 - 1;                    // If birthday has not occurred yet
+
+// Display the result
+document.write(" <h1>Age Calculater </h1>")
+
+document.write("Current Year:", currentYear ) ; document.write("<br>")
+document.write("Birth Year:", birthYear); document.write("<br>")
+document.write(" years old "   + age1 + "");
+
+
+
+
+
+
+
+document.write("<br> <br> <br>")
+
+
+
+
+   // a. Store a radius into a variable
+    let radius = 20;
+    const pi = 3.142;
+
+    // b. Calculate circumference and area
+    let circumference = 2 * pi * radius;
+    let area = pi * radius * radius;
+
+    // Output
+    document.write(" <h1>The Geometrizer </h1>")
+    document.write("Radius of a circle: " + radius + "<br>");
+    document.write("The circumference is: " + circumference + "<br>");
+    document.write("The area is: " + area.toFixed(1));
+
+
+
+
+
+
+   document.write("<br> <br> <br>")
+
+  // a. Favorite snack
+    let favoriteSnack = "chocolate chip";
+
+    // b. Current age
+    let currentAge = 15;
+
+    // c. Estimated maximum age
+    let maxAge = 65;
+
+    // d. Estimated snacks per day
+    let snacksPerDay = 3;
+
+    // e. Total snacks for the rest of life
+    let yearsRemaining = maxAge - currentAge;
+    let totalSnacks = yearsRemaining * 1 * snacksPerDay;
+
+    // Output
+    document.write(" <h1>The Lifetime supply calclulater</h1> <br>" )
+  
+    document.write("Favourite Snack: " + favoriteSnack + "<br>");
+    document.write("Current age: " + currentAge + "<br>");
+    document.write("Estimated Maximum Age: " + maxAge + "<br>");
+    document.write("Amount of snacks per day: " + snacksPerDay + "<br>");
+    document.write("You will need " + totalSnacks + " " + favoriteSnack +
+                   " to last you until the ripe old age of " + maxAge);
+
+
+
+    </script>
+
+
+
+
+</body>
+</html>
